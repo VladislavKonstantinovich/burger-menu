@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(55, 59, 124);
+    color: white;
+    height: 50%; 
+    max-width: 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+    text-align: center;
+    padding: 20px;
+}
+h1{
+    margin: 10px;
+}
+header button{
+    border: none;
+    font-size: x-large;
+    border-radius: 0.5rem;
+    color: white;
+}
+#open{
+    padding: 15px 35px;
+    background-color: rgb(201, 82, 201);
+    margin: 10px;
+}
+#toggle{
+    padding: 10px 16px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: rgb(47, 50, 102);
+    cursor: pointer;
+}
+nav{
+    background-color: rgb(55, 59, 124);
+    border: 2px grey solid;
+    width: 300px;
+    transition: 1s;
+    transform: translateX(-100%);
+}
+.move{
+    transition: 1s;
+    transform: translateX(100px);
+}
+.move ul li{
+    padding: 20px 0;
+    transition: 1s;
+}
+nav div{
+    border-bottom: 2px grey solid;
+    padding: 40px 50px;
+    display: flex;
+    justify-content: center;
+}
+
+nav div img{
+    border-radius: 100%;
+}
+nav ul{
+    display: block;
+}
+ul li{
+    height: auto;
+    padding: 20px 35px;
+    border-bottom: 2px grey solid;
+    transition: 1s;
+    white-space: nowrap;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
